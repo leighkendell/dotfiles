@@ -1,0 +1,13 @@
+# Theme
+mafredri/zsh-async
+sindresorhus/pure
+
+# oh-my-zsh
+robbyrussell/oh-my-zsh
+robbyrussell/oh-my-zsh path:plugins/mercurial
+
+# Plugins
+zdharma/history-search-multi-word
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+rupa/z
