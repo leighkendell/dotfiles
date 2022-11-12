@@ -1,5 +1,5 @@
 # Oh My Zsh
-export ZSH="$HOME/.sheldon/repos/github.com/ohmyzsh/ohmyzsh"
+export ZSH="$HOME/.local/share/sheldon/repos/github.com/ohmyzsh/ohmyzsh"
 
 # NVM
 export NVM_COMPLETION=true
@@ -22,3 +22,6 @@ eval "$(starship init zsh)"
 
 # Yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# x86 shell
+alias x86="env /usr/bin/arch -x86_64 /bin/zsh --login"
